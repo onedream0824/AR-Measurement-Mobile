@@ -15,6 +15,7 @@
 		55E465322024DC9F00F8B082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E465302024DC9F00F8B082 /* LaunchScreen.storyboard */; };
 		55E4653D2024DC9F00F8B082 /* ARMeasurementsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4653C2024DC9F00F8B082 /* ARMeasurementsTests.swift */; };
 		55E465482024DC9F00F8B082 /* ARMeasurementsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E465472024DC9F00F8B082 /* ARMeasurementsUITests.swift */; };
+		55E465572024F57A00F8B082 /* ARSphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E465562024F57A00F8B082 /* ARSphere.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		55E465432024DC9F00F8B082 /* ARMeasurementsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARMeasurementsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E465472024DC9F00F8B082 /* ARMeasurementsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMeasurementsUITests.swift; sourceTree = "<group>"; };
 		55E465492024DC9F00F8B082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E465562024F57A00F8B082 /* ARSphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSphere.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		55E465232024DC9F00F8B082 /* ARMeasurements */ = {
 			isa = PBXGroup;
 			children = (
+				55E465552024F56500F8B082 /* Objects */,
 				55E465242024DC9F00F8B082 /* AppDelegate.swift */,
 				55E465262024DC9F00F8B082 /* ViewController.swift */,
 				55E465282024DC9F00F8B082 /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				55E465492024DC9F00F8B082 /* Info.plist */,
 			);
 			path = ARMeasurementsUITests;
+			sourceTree = "<group>";
+		};
+		55E465552024F56500F8B082 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				55E465562024F57A00F8B082 /* ARSphere.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 			files = (
 				55E465272024DC9F00F8B082 /* ViewController.swift in Sources */,
 				55E465252024DC9F00F8B082 /* AppDelegate.swift in Sources */,
+				55E465572024F57A00F8B082 /* ARSphere.swift in Sources */,
 				55E4652D2024DC9F00F8B082 /* ARMeasurements.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

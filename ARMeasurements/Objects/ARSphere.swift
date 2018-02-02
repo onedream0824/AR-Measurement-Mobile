@@ -12,7 +12,9 @@ class ARSphere: SCNNode {
     
     init(vector3: SCNVector3) {
         super.init()
-        let sphere = SCNSphere(radius: 0.0025)
+        // This radius is so small because ARKit uses meters by default
+        //
+        let sphere = SCNSphere(radius: 0.004)
         let material = SCNMaterial()
         material.diffuse.contents = UIColor.red
         material.lightingModel = .physicallyBased

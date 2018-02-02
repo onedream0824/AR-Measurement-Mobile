@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55E413922025113400DC5E83 /* 1.0_SampleGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55E413912025113400DC5E83 /* 1.0_SampleGif.gif */; };
 		55E465252024DC9F00F8B082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E465242024DC9F00F8B082 /* AppDelegate.swift */; };
 		55E465272024DC9F00F8B082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E465262024DC9F00F8B082 /* ViewController.swift */; };
 		55E4652A2024DC9F00F8B082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E465282024DC9F00F8B082 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55E413912025113400DC5E83 /* 1.0_SampleGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.0_SampleGif.gif; sourceTree = "<group>"; };
 		55E465212024DC9F00F8B082 /* ARMeasurements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMeasurements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E465242024DC9F00F8B082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55E465262024DC9F00F8B082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		55E465232024DC9F00F8B082 /* ARMeasurements */ = {
 			isa = PBXGroup;
 			children = (
+				55E4655B20250F4C00F8B082 /* SampleGifs */,
 				55E465552024F56500F8B082 /* Objects */,
 				55E465242024DC9F00F8B082 /* AppDelegate.swift */,
 				55E465262024DC9F00F8B082 /* ViewController.swift */,
@@ -137,6 +140,14 @@
 				55E465562024F57A00F8B082 /* ARSphere.swift */,
 			);
 			path = Objects;
+			sourceTree = "<group>";
+		};
+		55E4655B20250F4C00F8B082 /* SampleGifs */ = {
+			isa = PBXGroup;
+			children = (
+				55E413912025113400DC5E83 /* 1.0_SampleGif.gif */,
+			);
+			path = SampleGifs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +260,7 @@
 				55E465322024DC9F00F8B082 /* LaunchScreen.storyboard in Resources */,
 				55E4652F2024DC9F00F8B082 /* Assets.xcassets in Resources */,
 				55E4652A2024DC9F00F8B082 /* Main.storyboard in Resources */,
+				55E413922025113400DC5E83 /* 1.0_SampleGif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

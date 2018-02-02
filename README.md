@@ -2,3 +2,8 @@
 
 Simple AR App I made to learn the fundamental of ARKit
 
+## 1.0 Branch
+1. Wait for the label to say ready 
+2. Touch the screen somewhere (works best when the phone is closer to an object).
+3. Move and touch again the distance between the last two touches will be displayed.
+

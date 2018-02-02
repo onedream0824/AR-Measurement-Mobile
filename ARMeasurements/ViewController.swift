@@ -55,7 +55,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         //
         infoLabel.frame = CGRect(x: 0, y: 16, width: view.bounds.width, height: 64)
         
-        // 1
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(recognizer:)))
         sceneView.addGestureRecognizer(tapGesture)
     }

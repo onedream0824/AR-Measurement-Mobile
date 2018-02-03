@@ -1,6 +1,6 @@
 # ARMeasurements
 
-Simple AR App I made to learn the fundamental of ARKit
+Simple AR App I made to learn the fundamentals of ARKit
 
 ## 1.0 Branch
 1. Wait for the label to say ready 
